@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  zoom: 0.9;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #fafafa;
