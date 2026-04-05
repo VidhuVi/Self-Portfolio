@@ -31,12 +31,12 @@ export default function Layout() {
       {/* Footer */}
       <footer className="bg-[#111111] text-gray-500 py-8 px-8 md:px-16 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm mt-auto">
         <div className="font-bold text-white tracking-tight uppercase">Vidhu P Vinod</div>
-        <div className="flex gap-6">
+        <div className="flex gap-6 ">
           <a href="https://github.com/VidhuVi" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>
           <a href="https://www.linkedin.com/in/vidhu-p-vinod-66a84b291/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vidhupvinod@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Email</a>
         </div>
-        <div>© 2026 Vidhu P Vinod. All rights reserved.</div>
+        <div>© 2026 Vidhu P Vinod.</div>
       </footer>
     </div>
   );
