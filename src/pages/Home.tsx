@@ -161,6 +161,10 @@ export default function Home() {
               <p className="text-4xl font-black text-blue-600 mb-1 group-hover:text-gray-900 transition-colors">My</p>
               <p className="text-xs font-bold uppercase tracking-widest text-gray-500 group-hover:text-blue-600 transition-colors flex items-center gap-1 underline underline-offset-4 decoration-blue-600/40 group-hover:decoration-blue-600">Perspective →</p>
             </Link>
+            <Link to="/arcade" className="group cursor-pointer">
+              <p className="text-4xl font-black text-blue-600 mb-1 group-hover:text-gray-900 transition-colors">Fun</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-500 group-hover:text-blue-600 transition-colors flex items-center gap-1 underline underline-offset-4 decoration-blue-600/40 group-hover:decoration-blue-600">Arcade →</p>
+            </Link>
           </div>
         </div>
       </section>

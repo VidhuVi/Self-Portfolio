@@ -13,6 +13,7 @@ export default function Layout() {
           <a href="/#accolades" className="hover:text-gray-900 transition-colors">Accolades</a>
           <a href="/#about" className="hover:text-gray-900 transition-colors">About</a>
           <a href="/#contact" className="hover:text-gray-900 transition-colors">Contact</a>
+          <Link to="/arcade" className="hover:text-gray-900 transition-colors">Arcade</Link>
         </div>
         <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=vidhupvinod@gmail.com"
