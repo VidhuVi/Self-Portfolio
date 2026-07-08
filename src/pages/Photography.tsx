@@ -6,12 +6,12 @@ export default function Photography() {
   // embedded gallery, and push users out to your full VSCO feed with a prominent button!
   
   const galleryPlaceholders = [
-    "/photos/WhatsApp Image 2026-04-05 at 13.28.29.jpeg",
-    "/photos/WhatsApp Image 2026-04-05 at 13.29.04.jpeg",
-    "/photos/WhatsApp Image 2026-04-05 at 13.29.24.jpeg",
-    "/photos/WhatsApp Image 2026-04-05 at 13.29.44.jpeg",
-    "/photos/WhatsApp Image 2026-04-05 at 13.30.02.jpeg",
-    "/photos/WhatsApp Image 2026-04-05 at 13.30.18.jpeg"
+    "/photos/WhatsApp_Image_2026-04-05_at_13.28.29.webp",
+    "/photos/WhatsApp_Image_2026-04-05_at_13.29.04.webp",
+    "/photos/WhatsApp_Image_2026-04-05_at_13.29.24.webp",
+    "/photos/WhatsApp_Image_2026-04-05_at_13.29.44.webp",
+    "/photos/WhatsApp_Image_2026-04-05_at_13.30.02.webp",
+    "/photos/WhatsApp_Image_2026-04-05_at_13.30.18.webp"
   ];
 
   return (

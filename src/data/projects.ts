@@ -1,11 +1,26 @@
 export const projects = [
   {
+    id: "insights",
+    title: "Insights",
+    description: "Automated Student Results Processing & Analysis Suite that digitizes, parses, and analyzes university results PDFs. Actively deployed for MEC with 360+ unique users and 1,260+ page views.",
+    github: "https://github.com/amitkio/Insights",
+    demo: "https://insights.mec.ac.in",
+    image: "/projects/insights.webp",
+    features: [
+      "High-performance PDF parsing engine utilizing pdfplumber and regular expressions",
+      "Five-tier Role-Based Access Control (RBAC) with Firebase Auth & native JWT",
+      "Dual-database PostgreSQL architecture separating verified and sandbox data",
+      "Visitor event session tracking with automated background data rollups",
+      "Active production deployment serving 360+ unique users and tracking 1,260+ page views"
+    ]
+  },
+  {
     id: "the-narrative",
     title: "The Narrative",
     description: "An AI-powered system that transforms raw meeting transcripts into structured intelligence, surfacing strategic decisions and action items.",
     github: "https://github.com/VidhuVi/The-Narrative",
     demo: "https://the-narrative-web.vercel.app/",
-    image: "/projects/the-narrative.jpg",
+    image: "/projects/the-narrative.webp",
     features: [
       "AI-powered strategic decision extraction",
       "LangGraph multi-agent swarm architecture",
@@ -19,7 +34,7 @@ export const projects = [
     description: "Legal AI Agent to help Indian law students summarize Supreme Court judgments using Gemini AI.",
     github: "https://github.com/VidhuVi/Law-Sahayi",
     demo: "https://law-sahayi.streamlit.app/",
-    image: "/projects/law-sahayi.jpg",
+    image: "/projects/law-sahayi.webp",
     features: [
       "Gemini AI integration for precise legal summarization",
       "Tailored specifically to Indian Supreme Court judgments",
@@ -33,7 +48,7 @@ export const projects = [
     description: "A full-stack MERN web application providing a platform for users to list items for rent and rent items from others securely.",
     github: "https://github.com/swathi-v-4002/RentEase",
     demo: "",
-    image: "/projects/rentease.jpg",
+    image: "/projects/rentease.webp",
     features: [
       "Full-stack MERN with secure JWT authentication",
       "Responsive item listing and dynamic rental management",
@@ -47,7 +62,7 @@ export const projects = [
     description: "Autonomous drone system featuring a ROS2 stack for QR-code guided payload delivery and precision navigation.",
     github: "https://github.com/aditeya24/skylarks",
     demo: "",
-    image: "/projects/skylarks.jpg",
+    image: "/projects/skylarks.webp",
     features: [
       "Complete ROS2 node communication stack",
       "QR-code guided autonomous payload delivery",

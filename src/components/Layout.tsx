@@ -30,7 +30,7 @@ export default function Layout() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#111111] text-gray-500 py-8 px-8 md:px-16 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm mt-auto">
+      <footer className="bg-[#111111] text-gray-400 py-8 px-8 md:px-16 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm mt-auto">
         <div className="font-bold text-white tracking-tight uppercase">Vidhu P Vinod</div>
         <div className="flex gap-6 ">
           <a href="https://github.com/VidhuVi" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>

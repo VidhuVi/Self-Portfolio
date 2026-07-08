@@ -33,7 +33,7 @@ export default function Home() {
         <div className="lg:col-span-5 h-[500px] lg:h-[700px] bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl overflow-hidden relative shadow-2xl">
           <div className="absolute inset-0 bg-black/5 mix-blend-overlay"></div>
           <img
-            src="/profile.jpg"
+            src="/profile.webp"
             alt="Vidhu P Vinod"
             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
           />
@@ -100,11 +100,12 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
-            { title: "1st Place — Codeum Reparo", org: "Excel 2025", description: "Won first place in the Codeum Reparo coding competition at Excel 2025.", image: "/certificates/Codeum_Reparo.jpg" },
-            { title: "1st Place — Binary Baton", org: "Excel 2025", description: "Secured first place in the Binary Baton event at Excel 2025.", image: "/certificates/Binary_Baton.jpg" },
-            { title: "Skylarks Drone Team — AIR 27", org: "National Drone Competition", description: "Part of the Skylarks autonomous drone team that achieved All India Rank 27.", image: "/certificates/VIDHU P VINOD - Drone certificate.jpg" },
-            { title: "Fundamentals of Cyber Security", org: "Coursera Certification", description: "Professional certification covering core cybersecurity principles and practices.", image: "/certificates/VIDHU P VINOD - Coursera {Fundamentals of Cyber Security}.jpg" },
-            { title: "Ethical Hacking", org: "NPTEL Certification", description: "Completed the NPTEL course on Ethical Hacking with certification.", image: "/certificates/VIDHU P VINOD - NPTEL {Ethical Hacking Certificate}_compressed.jpg" },
+            { title: "1st Place — Codeum Reparo", org: "Excel 2025", description: "Won first place in the Codeum Reparo coding competition at Excel 2025.", image: "/certificates/Codeum_Reparo.webp" },
+            { title: "1st Place — Binary Baton", org: "Excel 2025", description: "Secured first place in the Binary Baton event at Excel 2025.", image: "/certificates/Binary_Baton.webp" },
+            { title: "Skylarks Drone Team — AIR 27", org: "National Drone Competition", description: "Part of the Skylarks autonomous drone team that achieved All India Rank 27.", image: "/certificates/VIDHU_P_VINOD_-_Drone_certificate.webp" },
+            { title: "Fundamentals of Cyber Security", org: "Coursera Certification", description: "Professional certification covering core cybersecurity principles and practices.", image: "/certificates/VIDHU_P_VINOD_-_Coursera_Fundamentals_of_Cyber_Security.webp" },
+            { title: "Ethical Hacking", org: "NPTEL Certification", description: "Completed the NPTEL course on Ethical Hacking with certification.", image: "/certificates/VIDHU_P_VINOD_-_NPTEL_Ethical_Hacking_Certificate_compressed.webp" },
+            { title: "Wireshark for Network Analysis", org: "Great Learning", description: "Successfully completed the certification course covering network analysis and packet inspection.", image: "/certificates/Vidhu_P_Vinod_-_Wireshark_Certificate_page.webp" },
           ].map((accolade, index) => (
             <div key={index} className="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:-translate-y-2 hover:shadow-xl transition-[transform,box-shadow] duration-300 ease-out cursor-default will-change-transform">
               <div className="aspect-[4/3] overflow-hidden">
