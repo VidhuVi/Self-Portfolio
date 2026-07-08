@@ -1,0 +1,38 @@
+# Vidhu P Vinod Portfolio
+
+> Personal portfolio website of Vidhu P Vinod, engineering student, software developer, and photographer.
+
+This site serves as a digital showcase of engineering architectures, high-fidelity interfaces, achievements, and photography.
+
+## Technology Stack
+- **Frontend Framework**: React 18 (TypeScript), Vite
+- **Styling**: Tailwind CSS, custom Playfair Display (serif) and Inter (sans-serif) typography
+- **Routing**: React Router DOM
+- **Deployment**: Netlify
+
+## Site Map & Routes
+- [Home](/) - Main landing page showcasing Selected Works, Accolades (Certifications), Philosophy, and Contact options.
+- [Arcade](/arcade) - Interactive mini-game hub.
+  - [Tetris](/arcade/tetris) - Custom React-based retro Tetris game.
+- [Photography](/photography) - Curated geometry and lighting gallery with link to full VSCO profile.
+
+## Selected Works
+- [Insights](https://insights.mec.ac.in) - Automated student results parsing, database separation, and analytics suite. Built with PostgreSQL, FastAPI, and React. (Active deployment for MEC: 360+ unique users, 1,260+ page views).
+- [The Narrative](https://the-narrative-web.vercel.app/) - meeting transcript intelligence extraction tool using LangGraph multi-agent swarm architecture.
+- [Law Sahayi](https://law-sahayi.streamlit.app/) - Legal assistant AI summarizing Supreme Court judgments using Gemini AI.
+- [RentEase](https://github.com/swathi-v-4002/RentEase) - Full-stack MERN application for peer-to-peer item renting.
+- [Skylarks](https://github.com/aditeya24/skylarks) - ROS2-based stack for autonomous QR-code guided payload delivery drones.
+
+## Accolades & Certifications
+- **1st Place** - Codeum Reparo (Excel 2025)
+- **1st Place** - Binary Baton (Excel 2025)
+- **AIR 27** - Skylarks Drone Team (National Drone Competition)
+- **Fundamentals of Cyber Security** - Coursera Certification
+- **Ethical Hacking** - NPTEL Certification
+- **Wireshark for Network Analysis** - Great Learning Certification
+
+## Contact & Links
+- **Email**: [vidhupvinod@gmail.com](mailto:vidhupvinod@gmail.com)
+- **GitHub**: [https://github.com/VidhuVi](https://github.com/VidhuVi)
+- **LinkedIn**: [https://www.linkedin.com/in/vidhu-p-vinod-66a84b291/](https://www.linkedin.com/in/vidhu-p-vinod-66a84b291/)
+- **VSCO Gallery**: [https://vsco.co/vidhup/gallery](https://vsco.co/vidhup/gallery)
