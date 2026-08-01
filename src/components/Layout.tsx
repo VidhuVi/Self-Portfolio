@@ -14,6 +14,7 @@ export default function Layout() {
           <a href="/#about" className="hover:text-gray-900 transition-colors">About</a>
           <a href="/#contact" className="hover:text-gray-900 transition-colors">Contact</a>
           <Link to="/arcade" className="hover:text-gray-900 transition-colors">Arcade</Link>
+          <a href="https://echoes-by-vidhu.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">Blog</a>
         </div>
         <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=vidhupvinod@gmail.com"
@@ -35,6 +36,7 @@ export default function Layout() {
         <div className="flex gap-6 ">
           <a href="https://github.com/VidhuVi" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>
           <a href="https://www.linkedin.com/in/vidhu-p-vinod-66a84b291/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+          <a href="https://echoes-by-vidhu.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Blog</a>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vidhupvinod@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Email</a>
         </div>
         <div>© 2026 Vidhu P Vinod.</div>
